@@ -1,0 +1,77 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 21px;
+  }
+  
+  body {
+
+    line-height: 1.5;
+  }
+
+  h1 {
+padding-top: 15px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 38vh;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .content {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 18px;
+    position: relative;
+    margin-top: -76px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+  .content h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  .Image{
+    border-radius: 12px;
+  }
+  .content article {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .content h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #f3880e;
+  }
+  
+  .content p {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .content img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .quote-style {
+    border-left: 4px solid rgb(10, 226, 255);
+    padding-left: 10px;
+    font-style: italic;
+    color: #585858;
+}
+ a{
+  text-decoration: none;
+ }
